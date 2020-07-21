@@ -3,6 +3,16 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
+
+  # min = Float::INFINITY
+  # name = ""
+  # name_hash.each do |k,v|
+  #   if name_hash[k] < min
+  #     name = k
+  #   end
+  # end
+  # name
+
   min = Float::INFINITY
   name_hash.each do |k,v|
     if name_hash[k] < min
